@@ -73,6 +73,9 @@
             Console.WriteLine($"Audi ima {batteryLeft:F2} kWh baterije.");
             Console.WriteLine($"AMG ima {gasLeft:F2} L goriva");
             Console.WriteLine();
+
+            Console.WriteLine("Pritisnite enter za završetak programa!");
+            Console.ReadLine();
         }
 
         static string FormatTime(double time)
